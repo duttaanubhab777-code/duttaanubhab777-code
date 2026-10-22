@@ -1,30 +1,68 @@
-name: Generate Snake Animation
+name: Live Profile Update
 
 on:
   schedule:
-    - cron: "0 */12 * * *"   # every 12 hours
-  workflow_dispatch:           # lets you run it manually
+    - cron: "*/15 * * * *"   # every 15 minutes (GitHub may delay it by a few minutes)
+  workflow_dispatch:           # "Run workflow" button
   push:
     branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/snake.yml"
 
 permissions:
   contents: write
 
+concurrency:
+  group: live-profile
+  cancel-in-progress: false
+
 jobs:
-  generate:
+  update:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - uses: Platane/snk/svg-only@v3
+      - uses: actions/checkout@v4
+
+      # 1) trading-style SVGs from real GitHub data
+      - name: Generate live SVGs
+        env:
+          GH_USER: ${{ github.repository_owner }}
+          # Optional: add a classic token as secret GH_STATS_TOKEN (scope: read:user)
+          # to also count private contributions. Falls back to the normal token.
+          GH_TOKEN: ${{ secrets.GH_STATS_TOKEN || secrets.GITHUB_TOKEN }}
+        run: python3 scripts/generate_live.py --out dist
+
+      # 2) contribution snake
+      - name: Generate snake
+        continue-on-error: true
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
+      # 3) if the snake step failed, keep the previous snake instead of deleting it
+      - name: Keep previous snake if needed
+        run: |
+          git fetch --depth=1 origin output || exit 0
+          for f in github-snake.svg github-snake-dark.svg; do
+            if [ ! -s "dist/$f" ] && git cat-file -e "FETCH_HEAD:$f" 2>/dev/null; then
+              git show "FETCH_HEAD:$f" > "dist/$f"
+            fi
+          done
+
+      # 4) publish everything to the `output` branch (no history, force pushed)
+      - name: Publish to output branch
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          cd dist
+          git init -q -b output
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "live update $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push -q -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" output
           
