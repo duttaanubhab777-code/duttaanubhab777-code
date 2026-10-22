@@ -19,6 +19,10 @@
 <img src="https://komarev.com/ghpvc/?username=duttaanubhab777-code&label=Profile+views&color=ff7a3d&style=flat-square" alt="Profile views" />
 <img src="https://img.shields.io/github/followers/duttaanubhab777-code?style=flat-square&color=ffb347&labelColor=0a0d22&logo=github" alt="Followers" />
 
+<br/><br/>
+
+<img src="https://raw.githubusercontent.com/duttaanubhab777-code/duttaanubhab777-code/output/live-ticker.svg" width="100%" alt="Live GitHub ticker" />
+
 </div>
 
 <img src="assets/divider.svg" width="100%" alt="" />
@@ -101,18 +105,21 @@ const anubhab = {
 
 <img src="assets/divider.svg" width="100%" alt="" />
 
-## 📈 GitHub Stats
+## 📈 Live GitHub Stats
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=duttaanubhab777-code&show_icons=true&hide_border=true&bg_color=0a0d22&title_color=ff7a3d&icon_color=ffb347&text_color=e0e0e0&ring_color=7c8cff&border_radius=16" alt="GitHub stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=duttaanubhab777-code&layout=compact&hide_border=true&bg_color=0a0d22&title_color=ff7a3d&text_color=e0e0e0&border_radius=16" alt="Top languages" />
+<img src="https://raw.githubusercontent.com/duttaanubhab777-code/duttaanubhab777-code/output/live-dashboard.svg" width="100%" alt="Live GitHub dashboard" />
 
-<img src="https://streak-stats.demolab.com?user=duttaanubhab777-code&hide_border=true&background=0a0d22&stroke=262d5c&ring=ff7a3d&fire=ffb347&currStreakLabel=ffd9a0&sideLabels=7c8cff&currStreakNum=ffffff&sideNums=ffffff&dates=9aa3c7&border_radius=16" alt="GitHub streak" />
+<br/>
 
-<img src="https://ghchart.rshah.org/ff7a3d/duttaanubhab777-code" width="95%" alt="Contribution chart" />
+<img src="https://raw.githubusercontent.com/duttaanubhab777-code/duttaanubhab777-code/output/live-candles.svg" width="100%" alt="Weekly activity candlesticks" />
+
+<sub>⏱ Refreshed automatically every 15 minutes by GitHub Actions — real data from the GitHub API</sub>
 
 </div>
+
+<img src="assets/divider.svg" width="100%" alt="" />
 
 ## 🐍 Contribution Snake
 
@@ -140,4 +147,5 @@ const anubhab = {
 <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:7c8cff,50:ff5a4f,100:ff7a3d&section=footer&reversal=true" width="100%" alt="" />
 
 </div>
+
 
