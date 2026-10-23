@@ -1,14 +1,23 @@
 name: Live Profile Update
 
+# Refreshes everything on the GitHub profile:
+#   - trading-terminal style SVGs (ticker, dashboard, candlesticks) from real GitHub data
+#   - the animated project gallery, built from the portfolio repository (no images stored here)
+#   - the project, technology and repository sections of README.md
+#   - the contribution snake
+
 on:
   schedule:
     - cron: "*/15 * * * *"   # every 15 minutes (GitHub may delay it by a few minutes)
   workflow_dispatch:           # "Run workflow" button
+  repository_dispatch:         # sent by the portfolio repository when projects change
+    types: [portfolio-updated]
   push:
     branches: [main]
     paths:
       - "scripts/**"
       - ".github/workflows/snake.yml"
+      - "README.md"
 
 permissions:
   contents: write
@@ -24,6 +33,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install pillow
+
       # 1) trading-style SVGs from real GitHub data
       - name: Generate live SVGs
         env:
@@ -33,7 +49,38 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_STATS_TOKEN || secrets.GITHUB_TOKEN }}
         run: python3 scripts/generate_live.py --out dist
 
-      # 2) contribution snake
+      # 2) project gallery + README sections, built from the portfolio repository
+      - name: Build gallery and README sections
+        id: gallery
+        continue-on-error: true
+        env:
+          GH_USER: ${{ github.repository_owner }}
+          GH_TOKEN: ${{ secrets.GH_STATS_TOKEN || secrets.GITHUB_TOKEN }}
+        run: |
+          python3 scripts/build_gallery.py \
+            --mode profile \
+            --source "https://raw.githubusercontent.com/${GH_USER}/My-Portfolio/main" \
+            --svg dist/live-gallery.svg \
+            --readme README.md \
+            --repos --owner "${GH_USER}" \
+            --stamp
+
+      # 3) commit README changes (if any) to the default branch
+      - name: Commit README updates
+        if: steps.gallery.outcome == 'success'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "README is already up to date."
+            exit 0
+          fi
+          git commit -m "chore: sync README sections [skip ci]"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+
+      # 4) contribution snake
       - name: Generate snake
         continue-on-error: true
         uses: Platane/snk/svg-only@v3
@@ -43,17 +90,17 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-      # 3) if the snake step failed, keep the previous snake instead of deleting it
-      - name: Keep previous snake if needed
+      # 5) if a step above failed, keep the previous file instead of deleting it
+      - name: Keep previous files if needed
         run: |
           git fetch --depth=1 origin output || exit 0
-          for f in github-snake.svg github-snake-dark.svg; do
+          for f in github-snake.svg github-snake-dark.svg live-gallery.svg; do
             if [ ! -s "dist/$f" ] && git cat-file -e "FETCH_HEAD:$f" 2>/dev/null; then
               git show "FETCH_HEAD:$f" > "dist/$f"
             fi
           done
 
-      # 4) publish everything to the `output` branch (no history, force pushed)
+      # 6) publish everything to the `output` branch (no history, force pushed)
       - name: Publish to output branch
         env:
           GITHUB_TOKEN: ${{ github.token }}
