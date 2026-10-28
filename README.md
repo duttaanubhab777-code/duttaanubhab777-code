@@ -97,7 +97,7 @@ const anubhab = {
 
 | Project | What it is | Stack |
 |---|---|---|
-| ⛅ [**Weather App**](https://github.com/duttaanubhab777-code/Live-Weather-App/tree/main) · [Live](https://duttaanubhab777-code.github.io/Live-Weather-App/) | A clean, fast weather app that shows live conditions and forecasts the moment you ask for them. | `HTML` `CSS` `JavaScript` |
+| ⛅ [**Weather App**](https://github.com/duttaanubhab777-code/Live-Weather-App/tree/main) · [Live](https://live-weather-kz39nec7v-duttaanubhab777-3275.vercel.app/) | A clean, fast weather app that shows live conditions and forecasts the moment you ask for them. | `HTML` `CSS` `JavaScript` |
 | 🧮 [**Calculator**](https://github.com/duttaanubhab777-code/Calculator/tree/main) · [Live](https://duttaanubhab777-code.github.io/Calculator/) | A sleek, responsive calculator that handles everyday arithmetic accurately with a smooth real-time display. | `HTML` `CSS` `JavaScript` |
 | ⭕ [**Tic-Tac-Toe**](https://github.com/duttaanubhab777-code/Tic-Tac-Toe/tree/main) · [Live](https://duttaanubhab777-code.github.io/Tic-Tac-Toe/) | An installable, offline-ready Tic-Tac-Toe game with five AI levels, series mode and live scoreboards. | `HTML` `CSS` `JavaScript` `PWA` |
 | 🔳 [**QR Code Generator**](https://github.com/duttaanubhab777-code/QR-Code-Generator/tree/main) · [Live](https://duttaanubhab777-code.github.io/QR-Code-Generator/) | A lightweight utility that turns any text or link into a scannable QR code the instant you type. | `HTML` `CSS` `JavaScript` |
@@ -111,8 +111,8 @@ const anubhab = {
 <!-- REPOS:START -->
 | Repository | About | Language | Last push |
 |---|---|---|---|
+| [**Live-Weather-App**](https://github.com/duttaanubhab777-code/Live-Weather-App) | The weather app measure weather for some  cities. | `JavaScript` | 2026-10-28 |
 | [**Calculator**](https://github.com/duttaanubhab777-code/Calculator) | This Calculator create for small calculation. | `JavaScript` | 2026-10-21 |
-| [**Live-Weather-App**](https://github.com/duttaanubhab777-code/Live-Weather-App) | The weather app measure weather for some  cities. | `JavaScript` | 2026-10-21 |
 | [**QR-Code-Generator**](https://github.com/duttaanubhab777-code/QR-Code-Generator) | A fast and versatile QR Code Generator that instantly converts any text or URL into a dow… | `CSS` | 2026-10-21 |
 | [**Beyonder-Ai-2.0**](https://github.com/duttaanubhab777-code/Beyonder-Ai-2.0) ⭐ 1 | Student-focused AI learning companion for understanding concepts, solving problems, revis… | `JavaScript` | 2026-10-20 |
 | [**beyonder-api**](https://github.com/duttaanubhab777-code/beyonder-api) | — | `JavaScript` | 2026-10-20 |
