@@ -97,7 +97,7 @@ const anubhab = {
 
 | Project | What it is | Stack |
 |---|---|---|
-| ⛅ [**Weather App**](https://github.com/duttaanubhab777-code/Live-Weather-App/tree/main) · [Live](https://live-weather-kz39nec7v-duttaanubhab777-3275.vercel.app/) | A clean, fast weather app that shows live conditions and forecasts the moment you ask for them. | `HTML` `CSS` `JavaScript` |
+| ⛅ [**Weather App**](https://github.com/duttaanubhab777-code/Live-Weather-App/tree/main) · [Live](https://live-weather-app-gamma-inky.vercel.app/) | A clean, fast weather app that shows live conditions and forecasts the moment you ask for them. | `HTML` `CSS` `JavaScript` |
 | 🧮 [**Calculator**](https://github.com/duttaanubhab777-code/Calculator/tree/main) · [Live](https://duttaanubhab777-code.github.io/Calculator/) | A sleek, responsive calculator that handles everyday arithmetic accurately with a smooth real-time display. | `HTML` `CSS` `JavaScript` |
 | ⭕ [**Tic-Tac-Toe**](https://github.com/duttaanubhab777-code/Tic-Tac-Toe/tree/main) · [Live](https://duttaanubhab777-code.github.io/Tic-Tac-Toe/) | An installable, offline-ready Tic-Tac-Toe game with five AI levels, series mode and live scoreboards. | `HTML` `CSS` `JavaScript` `PWA` |
 | 🔳 [**QR Code Generator**](https://github.com/duttaanubhab777-code/QR-Code-Generator/tree/main) · [Live](https://duttaanubhab777-code.github.io/QR-Code-Generator/) | A lightweight utility that turns any text or link into a scannable QR code the instant you type. | `HTML` `CSS` `JavaScript` |
