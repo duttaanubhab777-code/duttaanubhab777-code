@@ -112,10 +112,10 @@ const anubhab = {
 | Repository | About | Language | Last push |
 |---|---|---|---|
 | [**sync**](https://github.com/duttaanubhab777-code/sync) ⭐ 1 | Chat app | `JavaScript` | 2026-11-08 |
+| [**qurix**](https://github.com/duttaanubhab777-code/qurix) | Qurix a quize app | — | 2026-11-08 |
 | [**Friendly-Flux**](https://github.com/duttaanubhab777-code/Friendly-Flux) ⭐ 1 | For students | `JavaScript` | 2026-11-05 |
 | [**Email-Sender**](https://github.com/duttaanubhab777-code/Email-Sender) ⭐ 1 | It is create for Email sending. | `JavaScript` | 2026-11-04 |
 | [**Beyonder-Ai-2.0**](https://github.com/duttaanubhab777-code/Beyonder-Ai-2.0) ⭐ 1 | Student-focused AI learning companion for understanding concepts, solving problems, revis… | `JavaScript` | 2026-11-03 |
-| [**qurix**](https://github.com/duttaanubhab777-code/qurix) | Qurix a quize app | — | 2026-10-31 |
 | [**Live-Weather-App**](https://github.com/duttaanubhab777-code/Live-Weather-App) ⭐ 1 | The weather app measure weather for some  cities. | `JavaScript` | 2026-10-29 |
 <!-- REPOS:END -->
 
