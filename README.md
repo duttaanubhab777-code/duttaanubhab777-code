@@ -111,7 +111,7 @@ const anubhab = {
 <!-- REPOS:START -->
 | Repository | About | Language | Last push |
 |---|---|---|---|
-| [**sync**](https://github.com/duttaanubhab777-code/sync) ⭐ 1 | Chat app | `JavaScript` | 2026-11-09 |
+| [**sync**](https://github.com/duttaanubhab777-code/sync) ⭐ 1 | Chat app | `JavaScript` | 2026-11-10 |
 | [**Result-Analysis**](https://github.com/duttaanubhab777-code/Result-Analysis) | It is a Result Analysis Calculator build for class 11-12 science stream students only | `HTML` | 2026-11-09 |
 | [**Live-Weather-App**](https://github.com/duttaanubhab777-code/Live-Weather-App) ⭐ 1 | The weather app measure weather for some  cities. | `JavaScript` | 2026-11-09 |
 | [**qurix**](https://github.com/duttaanubhab777-code/qurix) | Qurix a quize app | — | 2026-11-09 |
