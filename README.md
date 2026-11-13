@@ -69,7 +69,7 @@ const anubhab = {
 <br/><br/>
 
 <!-- COUNTS:START -->
-<img src="https://img.shields.io/badge/Projects-9-ff7a3d?style=for-the-badge&labelColor=0a0d22" alt="Projects 9" /> <img src="https://img.shields.io/badge/Team-3-ff5a4f?style=for-the-badge&labelColor=0a0d22" alt="Team 3" /> <img src="https://img.shields.io/badge/Full--Stack-1-ffb347?style=for-the-badge&labelColor=0a0d22" alt="Full-Stack 1" /> <img src="https://img.shields.io/badge/Solo-5-7c8cff?style=for-the-badge&labelColor=0a0d22" alt="Solo 5" /> <img src="https://img.shields.io/badge/Technologies-16-a78bfa?style=for-the-badge&labelColor=0a0d22" alt="Technologies 16" />
+<img src="https://img.shields.io/badge/Projects-10-ff7a3d?style=for-the-badge&labelColor=0a0d22" alt="Projects 9" /> <img src="https://img.shields.io/badge/Team-3-ff5a4f?style=for-the-badge&labelColor=0a0d22" alt="Team 3" /> <img src="https://img.shields.io/badge/Full--Stack-2-ffb347?style=for-the-badge&labelColor=0a0d22" alt="Full-Stack 1" /> <img src="https://img.shields.io/badge/Solo-5-7c8cff?style=for-the-badge&labelColor=0a0d22" alt="Solo 5" /> <img src="https://img.shields.io/badge/Technologies-19-a78bfa?style=for-the-badge&labelColor=0a0d22" alt="Technologies 16" />
 <!-- COUNTS:END -->
 
 </div>
@@ -84,6 +84,7 @@ const anubhab = {
 | Project | What it is | Stack |
 |---|---|---|
 | 📧 [**Email Sender**](https://github.com/duttaanubhab777-code/Email-Sender/tree/main) · [Live](https://email-sender-wy5o.onrender.com) | Email Sender is my own full-stack contact-form API service — it does what Formspree or Web3Forms does, but I own every line of it. | `React` `Vite` `Node.js` `Express` `MongoDB` `Mongoose` |
+| 💬 [**Sync**](https://github.com/duttaanubhab777-code/sync) · [Live](https://sync-5lfm.onrender.com) · [Preview](https://raw.githubusercontent.com/duttaanubhab777-code/sync/main/docs/screenshots/chats-home.jpg) | A real-time messenger with direct and group chats, smart inbox filters, stories, voice messages, web push and an installable PWA. | `React` `Redux Toolkit` `Vite` `Node.js` `Express` `Socket.IO` `MongoDB` `Python` `Flask` `Cloudinary` `PWA` |
 
 ### 🤝 Collaborations (frontend by me · backend by [Arnab Adhikari](https://github.com/arnabadhikari777))
 
