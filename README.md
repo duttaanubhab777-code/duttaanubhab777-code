@@ -69,7 +69,7 @@ const anubhab = {
 <br/><br/>
 
 <!-- COUNTS:START -->
-<img src="https://img.shields.io/badge/Projects-10-ff7a3d?style=for-the-badge&labelColor=0a0d22" alt="Projects 9" /> <img src="https://img.shields.io/badge/Team-3-ff5a4f?style=for-the-badge&labelColor=0a0d22" alt="Team 3" /> <img src="https://img.shields.io/badge/Full--Stack-2-ffb347?style=for-the-badge&labelColor=0a0d22" alt="Full-Stack 1" /> <img src="https://img.shields.io/badge/Solo-5-7c8cff?style=for-the-badge&labelColor=0a0d22" alt="Solo 5" /> <img src="https://img.shields.io/badge/Technologies-19-a78bfa?style=for-the-badge&labelColor=0a0d22" alt="Technologies 16" />
+<img src="https://img.shields.io/badge/Projects-10-ff7a3d?style=for-the-badge&labelColor=0a0d22" alt="Projects 10" /> <img src="https://img.shields.io/badge/Team-4-ff5a4f?style=for-the-badge&labelColor=0a0d22" alt="Team 4" /> <img src="https://img.shields.io/badge/Full--Stack-1-ffb347?style=for-the-badge&labelColor=0a0d22" alt="Full-Stack 1" /> <img src="https://img.shields.io/badge/Solo-5-7c8cff?style=for-the-badge&labelColor=0a0d22" alt="Solo 5" /> <img src="https://img.shields.io/badge/Technologies-25-a78bfa?style=for-the-badge&labelColor=0a0d22" alt="Technologies 25" />
 <!-- COUNTS:END -->
 
 </div>
@@ -84,12 +84,12 @@ const anubhab = {
 | Project | What it is | Stack |
 |---|---|---|
 | 📧 [**Email Sender**](https://github.com/duttaanubhab777-code/Email-Sender/tree/main) · [Live](https://email-sender-wy5o.onrender.com) | Email Sender is my own full-stack contact-form API service — it does what Formspree or Web3Forms does, but I own every line of it. | `React` `Vite` `Node.js` `Express` `MongoDB` `Mongoose` |
-| 💬 [**Sync**](https://github.com/duttaanubhab777-code/sync) · [Live](https://sync-5lfm.onrender.com) · [Preview](https://raw.githubusercontent.com/duttaanubhab777-code/sync/main/docs/screenshots/chats-home.jpg) | A real-time messenger with direct and group chats, smart inbox filters, stories, voice messages, web push and an installable PWA. | `React` `Redux Toolkit` `Vite` `Node.js` `Express` `Socket.IO` `MongoDB` `Python` `Flask` `Cloudinary` `PWA` |
 
 ### 🤝 Collaborations (frontend by me · backend by [Arnab Adhikari](https://github.com/arnabadhikari777))
 
 | Project | What it is | Stack |
 |---|---|---|
+| 💬 [**Sync**](https://github.com/duttaanubhab777-code/sync) · [Live](https://sync-5lfm.onrender.com) | Sync is a collaborative, full-stack WhatsApp-style real-time messaging platform. It combines private and group conversations, 24-hour stories, web pu… | `React` `Redux Toolkit` `React Router` `Vite` `Node.js` `Express` |
 | 🧪 [**Friendly Flux**](https://github.com/duttaanubhab777-code/Friendly-Flux/tree/main) · [Live](https://duttaanubhab777-code.github.io/Friendly-Flux/frontend/) | Friendly Flux is an advanced, full-stack STEM problem-solving platform designed to solve Mathematics, Physics, and Chemistry problems step-by-step. | `HTML` `CSS` `JavaScript` `Python` `Flask` `REST API` |
 | 🤖 [**Beyonder Ai**](https://github.com/duttaanubhab777-code/Beyonder-Ai-2.0/tree/main) · [Live](https://anubhabdutta.pythonanywhere.com) | Beyonder AI 2.0 is an advanced, full-stack conversational AI web interface designed to deliver seamless and intelligent user interactions. | `HTML` `CSS` `JavaScript` `Jinja2` `Python` `Flask` |
 | 📰 [**AA News**](https://github.com/arnabadhikari777/AA_News/tree/main) · [Live](https://arnabadhikari125117y.pythonanywhere.com/) | AA News is a dynamic, full-stack news aggregator platform built to deliver categorized, real-time news with a smooth user experience. | `HTML` `CSS` `JavaScript` `Jinja2` `Python` `Flask` |
@@ -139,18 +139,27 @@ const anubhab = {
 <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" />
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
 <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
-<img src="https://img.shields.io/badge/REST_API-7c8cff?style=for-the-badge" alt="REST API" />
 <img src="https://img.shields.io/badge/PWA-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white" alt="PWA" />
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/Jinja2-B41717?style=for-the-badge&logo=jinja&logoColor=white" alt="Jinja2" />
-<img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
+<img src="https://img.shields.io/badge/REST_API-7c8cff?style=for-the-badge" alt="REST API" />
 <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
+<img src="https://img.shields.io/badge/Jinja2-B41717?style=for-the-badge&logo=jinja&logoColor=white" alt="Jinja2" />
 <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT" />
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
 <img src="https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongodb&logoColor=white" alt="Mongoose" />
 <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+<img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
 <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+<img src="https://img.shields.io/badge/bcrypt-262d5c?style=for-the-badge" alt="bcrypt" />
+<img src="https://img.shields.io/badge/Cloudinary-262d5c?style=for-the-badge" alt="Cloudinary" />
+<img src="https://img.shields.io/badge/Helmet-262d5c?style=for-the-badge" alt="Helmet" />
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+<img src="https://img.shields.io/badge/MongoDB_Atlas-262d5c?style=for-the-badge" alt="MongoDB Atlas" />
+<img src="https://img.shields.io/badge/React_Router-262d5c?style=for-the-badge" alt="React Router" />
+<img src="https://img.shields.io/badge/Redux_Toolkit-262d5c?style=for-the-badge" alt="Redux Toolkit" />
+<img src="https://img.shields.io/badge/Socket.IO-262d5c?style=for-the-badge" alt="Socket.IO" />
+<img src="https://img.shields.io/badge/Web_Push-262d5c?style=for-the-badge" alt="Web Push" />
+<img src="https://img.shields.io/badge/Zod-262d5c?style=for-the-badge" alt="Zod" />
 <!-- TECH:END -->
 
 </div>
