@@ -111,7 +111,7 @@ const anubhab = {
 <!-- REPOS:START -->
 | Repository | About | Language | Last push |
 |---|---|---|---|
-| [**sync**](https://github.com/duttaanubhab777-code/sync) ⭐ 1 | Chat app | `JavaScript` | 2026-11-12 |
+| [**sync**](https://github.com/duttaanubhab777-code/sync) ⭐ 1 | Chat app | `JavaScript` | 2026-11-13 |
 | [**Beyonder-Ai-2.0**](https://github.com/duttaanubhab777-code/Beyonder-Ai-2.0) ⭐ 1 | Student-focused AI learning companion for understanding concepts, solving problems, revis… | `JavaScript` | 2026-11-12 |
 | [**Email-Sender**](https://github.com/duttaanubhab777-code/Email-Sender) ⭐ 1 | It is create for Email sending. | `JavaScript` | 2026-11-11 |
 | [**Result-Analysis**](https://github.com/duttaanubhab777-code/Result-Analysis) | It is a Result Analysis Calculator build for class 11-12 science stream students only | `HTML` | 2026-11-09 |
