@@ -112,7 +112,7 @@ const anubhab = {
 <!-- REPOS:START -->
 | Repository | About | Language | Last push |
 |---|---|---|---|
-| [**sync**](https://github.com/duttaanubhab777-code/sync) ⭐ 1 | Real time Chat app | `JavaScript` | 2026-11-20 |
+| [**sync**](https://github.com/duttaanubhab777-code/sync) ⭐ 1 | Real time Chat app | `JavaScript` | 2026-11-21 |
 | [**qurix**](https://github.com/duttaanubhab777-code/qurix) | Qurix a quize app | `JavaScript` | 2026-11-19 |
 | [**QR-Code-Generator**](https://github.com/duttaanubhab777-code/QR-Code-Generator) ⭐ 1 | A fast and versatile QR Code Generator that instantly converts any text or URL into a dow… | `JavaScript` | 2026-11-15 |
 | [**folio-craft**](https://github.com/duttaanubhab777-code/folio-craft) | Portfolio Maker | `JavaScript` | 2026-11-14 |
